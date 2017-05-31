@@ -58,11 +58,11 @@ namespace ChatterW9
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "28527486115-omm96k8lnkl7ft2nkr6p7e6c4231tqt1.apps.googleusercontent.com",
+                ClientSecret = "G_ykKJg2NjztzrgM5LZBhMg-"
+            });
         }
     }
 }
