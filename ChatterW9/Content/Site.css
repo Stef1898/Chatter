@@ -23,6 +23,32 @@ textarea {
     max-width: 280px;
 }
 
+/*  Headder */
+
+#logoImg{
+    width:10vw;
+    height:10vh;
+    margin-left:-10px;;
+}
+
+div.page-header{
+
+    margin-top:0px;
+    background-color: rgbA(128, 206, 210, 1);
+    background-image: url('Images/chitterchatternavbar.png');
+    background-size: 50% 80%;
+    background-repeat:no-repeat;
+    background-position:center;
+    padding-top:3px;
+    margin-bottom:0px;
+
+}
+
+#loginLink{
+    color: white;
+}
+
+
 #Home img {
     width:10vw;
     height:10vh;
@@ -37,14 +63,14 @@ textarea {
 }
 
 .navbar .container, .navbar.navbar-inverse.navbar-fixed-top {
-    height:30vh;
+    height: 15vh;
 }
 
 .navbar-inverse {
-    background-color: limegreen;
-    background-color: rgbA(2, 174, 162, 0.7);
+    background-color: rgbA(2, 174, 162, 1);
 }
 
-div.jumbotron {
+/*div.jumbotron {
     margin-top:25vh;
-}
+}*/
+
