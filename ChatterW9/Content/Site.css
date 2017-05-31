@@ -22,3 +22,29 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#Home img {
+    width:10vw;
+    height:10vh;
+    margin-left:-10px;;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    background-image: url('Images/chitterchatternavbar.png');
+    background-size: 50% 80%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.navbar .container, .navbar.navbar-inverse.navbar-fixed-top {
+    height:30vh;
+}
+
+.navbar-inverse {
+    background-color: limegreen;
+    background-color: rgbA(2, 174, 162, 0.7);
+}
+
+div.jumbotron {
+    margin-top:25vh;
+}

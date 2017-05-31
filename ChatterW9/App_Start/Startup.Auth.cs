@@ -54,9 +54,10 @@ namespace ChatterW9
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "462576080742924",
+               appSecret: "064cb9ae6ff484c2db51c1089a7a156d"
+               );
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
