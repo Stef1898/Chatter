@@ -13,10 +13,10 @@ namespace ChatterW9.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ChatterEntities : DbContext
+    public partial class ChatterEntities1 : DbContext
     {
-        public ChatterEntities()
-            : base("name=ChatterEntities")
+        public ChatterEntities1()
+            : base("name=ChatterEntities1")
         {
         }
     

@@ -214,23 +214,23 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\chat.Context.cs">
+    <Compile Include="Models\Chat.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>chat.Context.tt</DependentUpon>
+      <DependentUpon>Chat.Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Chat.cs">
-      <DependentUpon>chat.tt</DependentUpon>
+      <DependentUpon>Chat.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\chat.Designer.cs">
+    <Compile Include="Models\Chat.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>chat.edmx</DependentUpon>
+      <DependentUpon>Chat.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\chat1.cs">
+    <Compile Include="Models\Chat1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>chat.tt</DependentUpon>
+      <DependentUpon>Chat.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -261,23 +261,23 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <EntityDeploy Include="Models\chat.edmx">
+    <EntityDeploy Include="Models\Chat.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>chat.Designer.cs</LastGenOutput>
+      <LastGenOutput>Chat.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\chat.edmx.diagram">
-      <DependentUpon>chat.edmx</DependentUpon>
+    <Content Include="Models\Chat.edmx.diagram">
+      <DependentUpon>Chat.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="Models\chat.Context.tt">
+    <Content Include="Models\Chat.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>chat.edmx</DependentUpon>
-      <LastGenOutput>chat.Context.cs</LastGenOutput>
+      <DependentUpon>Chat.edmx</DependentUpon>
+      <LastGenOutput>Chat.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\chat.tt">
+    <Content Include="Models\Chat.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>chat.edmx</DependentUpon>
-      <LastGenOutput>chat1.cs</LastGenOutput>
+      <DependentUpon>Chat.edmx</DependentUpon>
+      <LastGenOutput>Chat1.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

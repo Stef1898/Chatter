@@ -10,7 +10,7 @@
             <PropertyRef Name="ChatID" />
           </Key>
           <Property Name="ChatID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Date" Type="datetime" />
           <Property Name="Message" Type="nvarchar" MaxLength="4000" Nullable="false" />
           <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
         </EntityType>
@@ -27,11 +27,11 @@
             <PropertyRef Name="ChatID" />
           </Key>
           <Property Name="ChatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
           <Property Name="Message" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
-        <EntityContainer Name="ChatterEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="ChatterEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Chats" EntityType="Self.Chat" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ChatterModelStoreContainer" CdmEntityContainer="ChatterEntities">
+        <EntityContainerMapping StorageEntityContainer="ChatterModelStoreContainer" CdmEntityContainer="ChatterEntities1">
           <EntitySetMapping Name="Chats">
             <EntityTypeMapping TypeName="ChatterModel.Chat">
               <MappingFragment StoreEntitySet="Chat">

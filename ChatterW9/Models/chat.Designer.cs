@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Weekly Projects\ChatterW9\ChatterW9\Models\chat.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Weekly Projects\ChatterW9\ChatterW9\Models\Chat.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
