@@ -18,5 +18,10 @@ namespace ChatterW9.Models
         public Nullable<System.DateTime> Date { get; set; }
         public string Message { get; set; }
         public string Id { get; set; }
+
+        //public Chat()
+        //{
+        //    Date = DateTime.Now;
+        //}
     }
 }

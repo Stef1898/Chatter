@@ -1,5 +1,6 @@
 ﻿body {
     padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -41,7 +42,7 @@ div.page-header{
     background-position:center;
     padding-top:3px;
     margin-bottom:0px;
-
+    height:20vh;
 }
 
 #loginLink{
@@ -62,14 +63,24 @@ div.page-header{
     background-position:center;
 }
 
-.navbar .container, .navbar.navbar-inverse.navbar-fixed-top {
+.navbar.navbar-inverse.navbar-fixed-top {
     height: 15vh;
 }
 
 .navbar-inverse {
     background-color: rgbA(2, 174, 162, 1);
+    padding-right:30px;
 }
 
+a.navchat {
+    color:white;
+position:relative;
+top:15px;
+
+}
+a#registerLink, #logoutForm a {
+    color:white;
+}
 /*div.jumbotron {
     margin-top:25vh;
 }*/
